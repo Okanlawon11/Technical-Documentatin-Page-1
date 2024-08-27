@@ -1,0 +1,111 @@
+body {
+  background: bisque;
+  font-family: sans-serif;
+  margin: 0;
+  padding-bottom: 900px;
+}
+
+header {
+ display: flex;
+ justify-content: space-between;
+ padding: 30px 70px 40px 10px;
+ align-items: center;
+}
+.logo {
+  width: 250px;
+  height: auto;
+  display: inline-block;
+  margin: 0;
+}
+.home {
+  text-decoration: none;
+  color: black;
+}
+main {
+  background-color: white;
+  padding: 20px 30px 100px 30px;
+  max-width: 62%;
+  border-radius: 10px;
+  position: absolute;
+  right: 50px;
+}
+h1 {
+  display: block;
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-family: serif;
+  letter-spacing: 1px;
+}
+h1 span {
+  display: block;
+  margin-top: 30px;
+}
+.article p {
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.pad {
+  padding-bottom: 40px;
+}
+h2 {
+  font-size: 40px;
+  font-family: serif;
+  letter-spacing: 1px;
+}
+.user-guide-para-container {
+  width: 100%;
+}
+.guide {
+  display: inline-block;
+  width: 30%;
+  height: 100px;
+  vertical-align: top;
+  padding: 10px;
+  margin-left: 3px;
+  margin-bottom: 10px;
+  border-top: 2px solid grey;
+}
+.guide a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(30, 30, 156);
+}
+section {
+  border-bottom: 1px solid rgb(230, 224, 224);
+}
+.navbar {
+  width: 25%;
+  height: 500px;
+  padding-left: 50px;
+}
+.navbar input {
+  width: 70%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+input::placeholder {
+  font-size: 20px;
+}
+/*
+.search {
+  width: 20px;
+  position: absolute;
+  top: 15px;
+  right: 130px;
+} */
+.nav-link {
+  margin: 25px 0;
+}
+.nav-link a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+}
+.bold {
+  font-weight: bold;
+  color: rgb(38, 38, 136);
+}
